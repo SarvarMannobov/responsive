@@ -1,0 +1,669 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,200;0,700;1,300&family=Roboto:wght@400;500;700&family=Rubik:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+.container {
+  max-width: 1390px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.home .container {
+  padding: 50px 0;
+}
+
+.home {
+  background: url(img/bg-image.png) no-repeat center / cover;
+
+  background-position: top;
+  padding-bottom: 100px;
+  border-radius: 0 0 20px 20px;
+}
+.home .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.home .navbar .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.home .navbar .logo {
+  width: 88px;
+  object-fit: cover;
+}
+
+.home .navbar .link {
+  font-style: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  opacity: 0.7;
+}
+.home .navbar .link:hover {
+  color: #fff;
+  opacity: 1;
+}
+.home .navbar .profile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.home .navbar .profile .name p,
+.home .navbar .profile .name h3 {
+  text-align: end;
+}
+
+.home .content .btn-globe {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Poppins";
+  background: #7b61ff;
+  color: #ffa800;
+  border-radius: 12px;
+  padding: 27px 24px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  display: block;
+  margin: 32px auto 184px;
+}
+
+.home .container .content .search-filter {
+  background: #fff;
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.home .container .content .search-filter .item {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.home .container .content .search-filter .item i {
+  font-size: 24px;
+  color: #ffa800;
+}
+
+.home .container .content .search-filter .item p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #979797;
+}
+
+.home .container .content .search-filter .item h3 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #161414;
+}
+
+.home .content .search-filter .search-btn .btn {
+  padding: 18px;
+  background: #7b61ff;
+  color: #fff;
+  font-size: 24px;
+  border: 0;
+  outline: 0;
+  border-radius: 12px;
+}
+
+.activities .container {
+  padding: 50px 0;
+}
+.activities {
+  padding: 100px 0;
+}
+
+.home .navbar .profile .name p {
+  font-style: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.home .navbar .profile .name h3 {
+  font-style: 14px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.activities .site-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+.activities .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.activities .top .btn {
+  padding: 12px 10px;
+  color: #7b61ff;
+  background-color: #7b61ff65;
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.activities .top .btn:hover {
+  color: white;
+  background-color: #7b61ff;
+
+  cursor: pointer;
+}
+
+.activities .wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.activities .wrapper .card {
+  width: 316px;
+}
+.activities .wrapper .card img {
+  width: 316px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 24px;
+  padding-bottom: 16px;
+}
+
+.activities .top .btn i {
+  padding-left: 7px;
+}
+
+.activities .wrapper .card p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+/* travel */
+.travel .container {
+  padding: 50px 0;
+}
+.travel .container .wrapper {
+  display: flex;
+  gap: 32px;
+}
+
+.travel .container .title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.travel .container .left {
+  display: flex;
+  margin: 64px 0;
+  gap: 20px;
+}
+
+.travel .container .left .text h1 {
+  width: 300px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.travel .container .left .text .text2 {
+  width: 316px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.travel .container .left .text {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.travel .container .left .text .info {
+  display: flex;
+  gap: 25px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 12px;
+}
+
+/* about */
+.about .left h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.about .left p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  color: #5b5b5b;
+  padding: 30px 0;
+}
+
+.about .left .btn {
+  padding: 10px 12px;
+  color: #7b61ff;
+  background-color: #7b61ff42;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.about .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about .left {
+  padding-right: 100px;
+  width: 700px;
+}
+
+.about .right img {
+  border-radius: 20px;
+}
+
+.about .left .btn:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.content h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  padding-top: 150px;
+}
+
+/* .content .btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+   background-color: #7B61FF;
+   padding: 25px 30px;
+   border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+} */
+
+.inputs-holder {
+  background-color: #ffffff;
+  width: 1000px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.destination h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.destination .mini-cards .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 10px;
+  color: black;
+}
+.destination .mini-cards .subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #979797;
+}
+.destination .cards-holder {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.destination .cards-holder {
+  max-width: 1350px;
+}
+
+.destination .cards-holder .mini-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+}
+/* .mini-cards .img img{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mini-cards .title{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.mini-cards .subtitle{
+    display: flex;
+    flex-wrap: wrap; 
+} */
+
+.main-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.main-btn .btn {
+  padding: 12px 10px;
+  color: #7b61ff;
+  background-color: #7b61ff65;
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.main-btn .btn:hover {
+  color: #ffffff;
+  background-color: #7b61ff;
+  border: 0;
+  outline: 2px solid #7b61ff;
+  cursor: pointer;
+}
+
+.main-btn h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.hotels .stat {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.hotels .cards-holder {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  max-width: 1350px;
+  flex-wrap: wrap;
+}
+.hotels .card .stat .location {
+  display: flex;
+  gap: 4px;
+}
+.hotels .cards-holder .location p {
+  width: 150px;
+}
+.hotels .cards-holder .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 10px;
+  color: black;
+}
+.hotels .cards-holder .location p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #979797;
+}
+.hotels .hotel-btn h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.destination {
+  margin: 0 auto;
+}
+
+/* footer */
+.footer {
+  background: #f9f9f9;
+}
+
+.footer .container {
+  padding: 50px 0;
+}
+.footer .container .wrapper {
+  display: flex;
+  gap: 100px;
+}
+
+.footer .container .block-1 .networks {
+  margin-top: 20px;
+}
+
+.footer .container .block-2 .wrapper .link {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container .block-2 .wrapper {
+  display: flex;
+  gap: 64px;
+  
+
+}
+.footer .container .block-2 .contact {
+  display: flex;
+  margin-left:64px ;
+  
+}
+.footer .container .block-2 .contact .email {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.footer .container .block-2 .contact .email .contactt p {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #979797;
+}
+
+.footer .container .block-2 .contact .email .contactt input::placeholder {
+  font-family: 'poppins';
+  font-size: 16px;
+  font-weight: 700px;
+  color: black;
+}
+
+.footer .container .block-2 .contact .email .txt {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  width: 375px;
+  color: black;
+}
+
+.footer .container .wrapper .block-1 .text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  width: 355px;
+  padding: 20px 0;
+}
+
+.footer .container .wrapper .block-2 .wrapper  p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.footer .container .wrapper .block-2 .wrapper  .link {
+  padding: 10px 0;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer .container .wrapper .block-2 .contact .email .contactt h3 {
+  background: #ffffff83;
+  padding: 10px 0;
+}
+
+/* @media (max-width: 1000px) {
+  .destination .container .cards-holder {
+    width: 1350px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+} */
+
+/* @media (max-width: 750px) {
+  .destination .container .cards-holder {
+    width: 1000px;
+    gap: 30px;
+  }
+} */
+
+/* @media (max-width: 1000px) {
+  .destination .container {
+    width: 1000px;
+    justify-content: center;
+    gap: 30px;
+  }
+} */
+
+@media (max-width: 1000px) {
+  .travel .container .wrapper {
+    width: 1200px;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .travel .container .title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .activities .container .wrapper {
+    width: 1200px;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  .activities .container .wrapper {
+    width: 1000px;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hotels .container .cards-holder {
+    width: 1200px;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about .container {
+    width: 1000px;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .home {
+    max-width: 1350px;
+    justify-content: center;
+
+  }
+  .home .navbar .menu,
+  .home .navbar .profile {
+    display: none;
+  }
+
+  .home .navbar .mobile-menu {
+    display: block;
+  }
+
+  .home .content .search-filter {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .home .content .search-filter .wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .home .content .search-filter .item {
+    min-width: 200px;
+  }
+
+  .home .content .search-filter .search-btn {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .home .content .search-filter .search-btn .btn {
+    width: 100%;
+  }
+}
